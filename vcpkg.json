@@ -1,0 +1,19 @@
+{
+    "name": "breakout",
+    "version": "0.1",
+    "dependencies": [
+        "glbinding",
+        "glfw3",
+        "doctest",
+        "glm",
+        "stb",
+        "assimp",
+        "range-v3",
+        {
+            "name": "imgui",
+            "features": [ "glfw-binding", "opengl3-binding" ]
+        },
+        "entt",
+        "box2d"
+    ]
+}

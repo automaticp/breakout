@@ -1,0 +1,21 @@
+---
+Checks: 'boost-*,
+    bugprone-*,
+    -bugprone-easily-swappable-parameters,
+    clang-analyzer-*,
+    concurrency-*,
+    misc-*,
+    -misc-no-recursion,
+    -misc-non-private-member-variables-in-classes,
+    -misc-const-correctness,
+    -misc-unused-using-decls,
+    -misc-use-anonymous-namespace,
+    modernize-*,
+    -modernize-use-trailing-return-type,
+    -modernize-use-nodiscard,
+    -modernize-avoid-c-arrays,
+    -modernize-return-braced-init-list,
+    -modernize-concat-nested-namespaces,
+    performance-*,
+    portability-*'
+...

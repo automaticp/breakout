@@ -7,7 +7,7 @@ target_compile_features(breakout2 PRIVATE cxx_std_20)
 # internal dependencies
 target_link_libraries(breakout2
     PRIVATE
-        learnlib
+        learnlib::learnlib
 )
 
 # external depenencies
